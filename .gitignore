@@ -205,3 +205,25 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# MemoryGraph specific files
+# ChromaDB - Vector database files (contains user data)
+chroma_db/
+*.sqlite3
+
+# Session data - User and session information (sensitive data)
+session_data/
+users.json
+sessions.json
+
+# Application logs
+logs/
+*.log
+
+# IDE specific
+.vscode/
+.idea/
+
+# OS specific
+.DS_Store
+Thumbs.db

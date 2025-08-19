@@ -1,0 +1,31 @@
+# Core AI and LangGraph dependencies
+langgraph>=0.2.0
+langchain>=0.2.0
+langchain-openai>=0.1.0
+langchain-community>=0.2.0
+
+# Vector database and embeddings
+chromadb>=0.4.0
+openai>=1.0.0
+
+# Data processing and utilities
+numpy>=1.24.0
+pandas>=2.0.0
+python-dotenv>=1.0.0
+
+# Async support
+aiohttp>=3.8.0
+asyncio
+
+# Logging and debugging
+loguru>=0.7.0
+
+# Testing
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
+
+# Type hints
+typing-extensions>=4.5.0
+
+# JSON handling
+pydantic>=2.0.0
